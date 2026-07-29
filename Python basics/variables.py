@@ -25,3 +25,13 @@ print(A)
 a1=80
 a2=40
 print(a1,a2)
+
+roll=1; name="Ashwitha"
+print("Roll No:",roll)
+print("Name:",name)
+print("Roll No:",roll ,"Name:",name)
+
+year=2026
+print("Welcome to the year", year)
+Apples=10
+print("I have",Apples,"apples.")
