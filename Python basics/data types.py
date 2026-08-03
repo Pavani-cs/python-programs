@@ -98,7 +98,7 @@ print(y) ; print(type(y))
 a = 5
 print("The type of a", type(a))
 b = 40.5
-print("The type of a",type(b))
+print("The type of b",type(b))
 print("d is a float",isinstance(40.5,float))
 c = 1+3j
 print("The type of c",type(c))
