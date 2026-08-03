@@ -62,3 +62,48 @@ x = memoryview(bytes(5))
 print(x)
 x = None
 print(x)
+
+# Python Numbers
+x = 1
+y = 2.8
+z = 1j
+print(x)
+print(y)
+print(z)
+
+# Int
+x = 36656222554887711
+y = -3255522
+print(x) ; print(type(x))
+print(y) ; print(type(y))
+
+# Float
+x = 1.0
+y = -85.59
+z = 86e3
+a = 12E4
+b = -87.7e100
+print(x) ; print(type(x))
+print(y) ; print(type(y))
+print(z) ; print(type(z))
+print(a) ; print(type(a))
+print(b) ; print(type(b))
+
+# Complex
+x = 3+5j
+y = -5j
+print(x) ; print(type(x))
+print(y) ; print(type(y))
+
+a = 5
+print("The type of a", type(a))
+b = 40.5
+print("The type of a",type(b))
+print("d is a float",isinstance(40.5,float))
+c = 1+3j
+print("The type of c",type(c))
+print(" c is a complex numbers", isinstance(1+3j, complex))
+d = 2.14j
+print(d,"The type of a",type(d))
+e = 2.0+2.3j
+print(e,"The type of a",type(e))
