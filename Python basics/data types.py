@@ -104,6 +104,6 @@ c = 1+3j
 print("The type of c",type(c))
 print(" c is a complex numbers", isinstance(1+3j, complex))
 d = 2.14j
-print(d,"The type of a",type(d))
+print(d,"The type of d",type(d))
 e = 2.0+2.3j
-print(e,"The type of a",type(e))
+print(e,"The type of e",type(e))
