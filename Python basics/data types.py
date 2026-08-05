@@ -107,3 +107,38 @@ d = 2.14j
 print(d,"The type of d",type(d))
 e = 2.0+2.3j
 print(e,"The type of e",type(e))
+
+# Type conversion
+x = 1
+y = 2.8
+z = 1j
+a = float(x)           # converting from int to float
+b = int(y)             # converting from float to int
+c = complex(x)         # converting from int to complex
+print(a)
+print(b)
+print(c)
+print(type(a))
+print(type(b))
+print(type(c))
+
+a = 5                 # Implicit type conversioh
+b = 5.5
+sum = a + b
+print(sum, type(sum))
+
+a = 5
+b = 4
+c = a * b
+print(c,type(c))
+
+a = 100              # Explicit type conversion
+b = "200"
+b = int(b)
+result = a + b
+print(result, type(result))
+
+a = 10
+b = str(a)
+print(b, type (b))
+
