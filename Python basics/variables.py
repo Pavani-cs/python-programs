@@ -154,9 +154,14 @@ name2 = temp
 print(name1 , name2)
 
 # Take an integer input from the user
-a=int(input("enter a: "))
+a = int(input("enter a: "))
 print(a)
 
 # Take a string (text) input from the user
-a=input("Enter a: ")
+a = input("Enter a: ")
 print(a)
+
+num = input("Enter number:")
+print(num)
+name1 = input("Enter name:")
+print(name1)
