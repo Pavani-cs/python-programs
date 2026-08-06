@@ -160,7 +160,6 @@ print(a)
 # Take a string (text) input from the user
 a = input("Enter a: ")
 print(a)
-
 num = input("Enter number:")
 print(num)
 name1 = input("Enter name:")
