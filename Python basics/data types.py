@@ -143,7 +143,7 @@ b = str(a)
 print(b, type (b))
 
 # Example
-num = input("Enter number:")
+num = input("Enter number:")         
 print(num)
 name1 = input("Enter name:")
 print(name1)
