@@ -1,0 +1,42 @@
+# Additions
+print(10 + 5)
+x = 5
+y = 3
+print(x + y)
+
+# Subtractions
+print(10 - 5)
+print(5 - 10)
+a = 5
+b = 3
+print(a - b)
+
+# Multiplications
+print(100 * 5)
+a = 5
+b = 3
+print(a * b)
+
+# Divisions
+print(20 / 4)
+a = 12
+b = 4
+print(a / b)
+
+# Modulus
+print(10 % 5)
+a = 5
+b = 2
+print(a % b)
+
+# Exponents
+print(10 ** 2)
+x = 2
+y = 5
+print(x ** y)
+
+# Floor division
+print(20 // 5)
+x = 15
+y = 2
+print(x // y)
