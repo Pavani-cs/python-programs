@@ -17,3 +17,7 @@ print(8)
 print(3+5)
 #combine text and numbers in one output by separating them with a comma
 print("Iam",40,"years old.")
+# Displaying output
+print('G','F','G',sep="")
+print("Python",end='@')
+print("Programming")
