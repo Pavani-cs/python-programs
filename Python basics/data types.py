@@ -149,3 +149,46 @@ name1 = input("Enter name:")
 print(name1)
 print("type of number",type(num))
 print("type of name",type(name1))
+
+# Python Casting
+# Specify a variable type
+# integers 
+x = int(1)
+y = int(2.6)
+z = int("3")
+print(x, y, z)
+
+# floats
+x = float(1)
+y = float(2.8)
+z = float("3")
+w = float("4.5")
+print(x, y, z, w)
+print(x, y, z, z)
+
+# strings
+x = str("s1")
+y = str(2)
+z = str(3.0)
+print(x, y, z)
+
+# Examples
+a = 25
+b = float(a)
+print(b, type(b))
+
+marks = 100
+marks = str(marks)
+print("My marks are",marks)
+print("My marks are " + marks)
+
+x = "50"
+y = int(x)
+print(y,10)
+print(y + 10)
+
+a = 10
+b = 20
+a = float(a)
+b = float(b)
+print(a + b)
