@@ -63,6 +63,51 @@ width = 4
 area = length * width
 print(area)
 
+# area of circle
+radius = 5
+pi = 3.14
+area = pi * radius ** 2
+print("Area of circle:", area)
+
+# average of three numbers
+a = 2; b = 5; c = 10
+average = (a + b + c)/3
+print(average)
+
+# example
+sub1 = 100
+sub2 = 90
+sub3 = 95
+sub4 = 85
+sub5 = 80
+total = sub1 + sub2 + sub3 + sub4 + sub5
+average = total/5
+print("Total marks:",total,"Average:",average)
+
+# simple Interest
+p = 10000
+t = 5
+r = 2
+si = (p * t * r)/100
+print("Simple interest:", si)
+
+# examples
+x = 10; y = 3
+print(x + y * 2)
+print((x + y) * 2)
+
+num = int(input("Enter num:"))
+square = num ** 2
+cube = num ** 3
+print("Square:",square)
+print("Cube:",cube)
+
+seconds = 125
+minutes = seconds // 60
+remaining_seconds = seconds % 60
+print("Minutes:", minutes)
+print("Remaining_seconds:", remaining_seconds)
+
 # Simple calculator
 a = int(input("Enter a values:"))
 b = int(input("Enter b values:"))
