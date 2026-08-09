@@ -57,3 +57,19 @@ sum2 = sum1 + 250
 sum3 = sum2 + sum2
 print(sum1, sum2, sum3)
 
+# area of rectangle
+length = 2
+width = 4
+area = length * width
+print(area)
+
+# Simple calculator
+a = int(input("Enter a values:"))
+b = int(input("Enter b values:"))
+print("Addition:", a + b)
+print("Subtraction:", a - b)
+print("Multiplication:", a * b)
+print("Division:", a / b)
+print("Exponent:", a ** b)
+print("Floor division:", a // b)
+print("Modulus:", a % b)
