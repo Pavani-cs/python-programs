@@ -192,3 +192,26 @@ b = 20
 a = float(a)
 b = float(b)
 print(a + b)
+
+age = input("Enter age:")
+age = int(age)
+print(age, type(age))
+
+num = int(input("Enter num:"))
+num = str(num)
+print(num, type(num))
+
+height =input("Enter height:")
+height = float(height)
+print(height, type(height))
+
+a =input("Enter a value:")
+b =input("Enter b value:")
+a = int(a)
+b = int(b)
+print("Sum:", a + b)
+
+a = int(input("Enter a value:"))
+b = int(input("Enter b value:"))
+sum = a + b
+print(sum,type(sum))

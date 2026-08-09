@@ -40,3 +40,20 @@ print(20 // 5)
 x = 15
 y = 2
 print(x // y)
+
+# Examples
+x = 15
+y = 4
+print('x + y:', x + y)       #single quotes and double quotes can give same outputs
+print("x - y:", x - y)
+print('x * y:', x * y)
+print("x / y:", x / y)
+print("x % y:", x % y)
+print("x ** y:", x ** y)
+print('x // y:', x // y)
+
+sum1 = 100 + 50
+sum2 = sum1 + 250
+sum3 = sum2 + sum2
+print(sum1, sum2, sum3)
+
