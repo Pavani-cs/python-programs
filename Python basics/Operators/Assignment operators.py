@@ -50,3 +50,32 @@ x <<= 3
 print(x)
 
 print(x:= 3)
+
+# Examples
+x = 10
+x += 5
+print(x, type(x))
+x -= 3
+print(x, type(x))
+x *= 2
+print(x, type(x))
+x /= 4
+print(x, type(x))
+x //= 2
+print(x, type(x))
+x **= 3
+print(x, type(x))
+x %= 3
+print(x, type(x))
+
+x = 15
+x |= 3
+print(x, type(x))
+x &= 3
+print(x, type(x))
+x ^= 2
+print(x, type(x))
+x >>= 2
+print(x, type(x))
+x <<= 3
+print(x, type(x))
