@@ -38,5 +38,5 @@ print(x > 0 and x % 2 == 0 )
 num = int(input("Enter num:"))   # Check whether a number is negative or greater than 100
 print(num < 0 or num > 100)
 
-num = int(input("Enetr num:"))
-print(num >= 1 and num <= 100 and not num == 50 )
+number = int(input("Enter number:"))    # check whether number is between 1 and 100 but not equal to 50
+print(number >= 1 and number <= 100 and not number == 50 )
