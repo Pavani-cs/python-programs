@@ -12,3 +12,31 @@ x = 10                        # reverse the result, returns false if the result 
 print(not (x > 5 and x < 15))
 x = 5
 print(not(x < 5 and x > 10))
+
+# Examples
+x =int(input("Enter num1:"))
+y =int(input("Enter num2:"))
+print(x > 0 and y > 0)
+
+age = int(input("enter age:"))
+print(age >= 18 and age <= 60)
+
+a = int(input("enter a:"))
+b = int(input("enter b:"))
+print(a > 100 or b > 100)
+
+username = input("Enter username:")
+password = input("Enter password:")
+print( username == "Parvathi" and password == "1234" )
+
+num = int(input("Enter num:"))
+print(not num == 0)
+
+num = int(input("Enter num:"))   # Check whether a number is positive and even
+print(x > 0 and x % 2 == 0 )
+
+num = int(input("Enter num:"))   # Check whether a number is negative or greater than 100
+print(num < 0 or num > 100)
+
+num = int(input("Enetr num:"))
+print(num >= 1 and num <= 100 and not num == 50 )
