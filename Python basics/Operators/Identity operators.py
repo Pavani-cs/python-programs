@@ -29,3 +29,20 @@ print(x3 is y3)
 print(x3 == y3)
 print(x2 == y2)
 print(x1 == y1)
+print(x1 != y1)
+
+x = None
+print(x is None)
+print(x is not None)
+
+x = ["apple", "banana"]
+y = x
+print(x,y)
+print(x == y)
+print(x is y)
+print(x is not y)
+
+a = int(input("enter a:"))
+b = input("enter b:")
+print(a is b)
+print(a is not b)
