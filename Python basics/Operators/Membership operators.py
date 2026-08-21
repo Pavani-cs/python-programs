@@ -32,5 +32,14 @@ print("10" in x)
 subjects = ["C", "Python"]
 subject = input("Enter subject:")
 print(subject in subjects )
+# Membership operator is completed.
+# Next operator is bitwise operator.
 
-  
+# Bitwise operators
+print(6 & 3)               # &(AND) operator
+print(6 | 3)               # |(OR) operator
+print(6 ^ 3)               # ^(XOR) operator
+print(~3)                  # ~(NOT) operator
+print(3 << 2)              # <<(left shift) operator
+print(8 >> 2)              # >>(right shift) operator
+
