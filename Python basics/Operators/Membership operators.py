@@ -71,3 +71,40 @@ print(num1 | num2)
 print(num1 ^ num2)
 print(num1 << num2)
 print(num1 >> num2)
+
+# Operator precedence
+print((6 + 3) - (6 + 3))      # parenthesis have the highest precedence
+print(100  - 3 ** 3)          # Exponentiation has higher precedence than subtraction        
+print(100 + ~3)               # Bitwise NOT has higher precedence than addition
+print(+10)
+print(-10)
+
+# Unary plus
+x = 10
+print(+x)
+x = -10
+print(+x)
+
+# Unary Minus
+x = 10
+print(-x)
+x = -10
+print(-x)
+
+# Bitwise Not
+x = 5
+print(~x)               #~5 = -(5 + 1) = -6
+
+print(100 - 5 * 3)         # suntraction has a lower precedence than multiplication
+print(10 +  5 - 3)         # + and - have same precedence
+print(10 + 5 * 2)          # addition has a lower precedence than multiplication
+
+print(8 >> 4 - 2)          # bitwise right shift has a lower precedence than subtraction
+print(2 + 3 << 1)          # bitwise left shift has a lower precedence than addition
+
+print(2 << 1 & 3)          # << and >> higher precedence than &,^,|
+print(2 << 1 ^ 3)
+print(2 << 1 | 3)
+print(2 >> 1 & 3)
+print(2 >> 1 ^ 3)
+print(2 >> 1 | 3)
