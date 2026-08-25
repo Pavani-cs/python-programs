@@ -43,3 +43,31 @@ print(~3)                  # ~(NOT) operator
 print(3 << 2)              # <<(left shift) operator
 print(8 >> 2)              # >>(right shift) operator
 
+a = 5; b = 3
+print (a & b)
+
+a = 5; b = 3
+print(a | b)
+
+a = 5; b = 3
+print(a ^ b)
+
+a = 10
+print(~a)
+
+a = 5; b = 1
+print(a << b)
+
+a = 5; b = 1
+print(a >> b)
+
+num = int(input("Enter num:"))
+print(~num)
+
+num1 = int(input("Enter num1:"))
+num2 = int(input("Enter num2:"))
+print(num1 & num2)
+print(num1 | num2)
+print(num1 ^ num2)
+print(num1 << num2)
+print(num1 >> num2)
