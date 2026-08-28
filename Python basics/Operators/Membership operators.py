@@ -108,3 +108,47 @@ print(2 << 1 | 3)
 print(2 >> 1 & 3)
 print(2 >> 1 ^ 3)
 print(2 >> 1 | 3)
+print(6 & 2 + 1)           # bitwise  & has a lower precedence than addition
+print(6 ^ 2 + 1)           # bitwise  ^  has a lower precedence than addition  
+print(6 | 2 + 1)           # bitwise  | has a lower precedence than addition    
+
+print(not 5 == 5)
+print(1 or 2 and 3)
+print(4 or 5 + 10 or 8)
+print(5 == 4 + 1)
+print(5 + 4 - 7 + 3)
+print(1 + 2 + 3 == 6)
+
+s = 1 + 2 + 3 + \
+    4 + 5 + 6  + \
+    7 + 8 + 9
+print(s)
+
+s = (1 + 2 + 3 +      # using parentheses
+    4 + 5 + 6  +
+    7 + 8 + 9)
+print(s)
+
+n = ( 1 * 2 * 3 + 7 + 8 + 9)
+print(n)
+
+footballer = ['Messi', " NEYMAR", 'SUAREZ']
+print(footballer)
+
+x = {1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9}
+print(x)
+
+print(4 + 5 * 2 ** 3)
+print(10 > 5 and 2 + 3 * 4 > 10)
+print((5 + 3) * 2 ** 2 - 4)
+print(20 // 3 + 2 ** 3 * 2)
+print(10 + 5 * 2 > 15 and 20 - 5 == 15)
+
+a = int(input("Enter a: "))
+b = int(input("Enter b: "))
+c = int(input("Enter c: "))
+d = int(input("Enter d: "))
+e = int(input("Enter e: "))
+print(a // b + c ** d * e)
+
+print(int(input()) // int(input()) + int(input()) ** int(input()) * 2)
