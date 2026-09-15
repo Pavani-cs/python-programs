@@ -119,3 +119,53 @@ if b > a and b > c:
     print("b is large")
 if c > a and c > b:
     print("c is greater")
+
+# if else statement
+a = 33; b = 33
+if a > b:
+    print("a is greater than b")
+else:
+    print("both are equal")
+
+number = 7
+if number % 2 == 0:
+    print("even")
+else:
+    print("odd")
+
+username = "Pavani"
+if len(username) > 0:
+    print(f"welcome, {username}")
+else:
+    print("Error: Username cannot be empty")
+
+# number is positive or negative
+num = int(input("Enter num:"))
+if num >= 0 :
+    print("positive")
+else:
+    print("Negative")
+
+# number is even or odd
+number = int(input("enter number: "))
+if number % 2 == 0:
+    print("even")
+else:
+    print("odd")
+
+# greater of two numbers
+a = int(input("enter a:"))
+b = int(input("enter b:"))
+if a > b:
+    print("a is greater")
+else:
+    print("b is greater")
+
+# leap year
+year = int(input("Enter year:"))
+if year % 4 == 0:
+    print("Leap year")
+else:
+    print("Not leap year")
+
+
