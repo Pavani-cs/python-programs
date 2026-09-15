@@ -168,4 +168,17 @@ if year % 4 == 0:
 else:
     print("Not leap year")
 
-
+# ATM withdrawal
+balance = int(input("Enter balance:"))
+amount = int(input("Enter amount:"))
+if amount <= balance:
+    print("withdrawal successful")
+else:
+    print("Insufficient balance")
+ 
+# Movie ticket
+age = int(input("Enter age:"))
+if age >= 18:
+    print("Adult ticket")
+else:
+    print("Child ticket")
