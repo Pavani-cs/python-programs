@@ -182,3 +182,136 @@ if age >= 18:
     print("Adult ticket")
 else:
     print("Child ticket")
+
+# online shopping
+shopping_amount = int(input("Enter Shopping amount : "))
+if shopping_amount >= 1000:
+    print("Free Delivery")
+else:
+    print("Delivery charge ₹50")
+
+# Bus seat
+seat = input("enter seat:")
+if seat == "yes":
+    print("Seat available")
+else:
+    print("Bus is full")
+
+# Password Strength
+length = int(input("Enter length:"))
+if length >= 8:
+    print("Strong password")
+else:
+    print("Weak password")
+
+password = input("Enter password:")
+if len(password) >= 8:
+    print("Strong password")
+else:
+    print("Weak password")
+
+# Bank Loan
+age = int(input("Enter Age:"))
+salary = int(input("Enter salary:"))
+if age >= 21 and salary >= 25000:
+    print("Loan eligible")
+else:
+    print("Loan not eligible")
+
+# Elif Statement
+a = 33
+b = 33
+if b > a:
+    print("b is greater than a")
+elif a == b:
+    print("both are equal")
+
+score = 70
+if score >= 90:
+    print("Grade: A")
+elif score >= 80:
+    print("Grade: B")
+elif score >= 70:
+    print("Grade: C")
+
+day = int(input("Enter day: "))
+if day == 1:
+    print("Monday")
+elif day == 2:
+    print("Tuesday")
+elif day == 3:
+    print("Wednesday")
+else:
+    print("Weekends")
+
+temperature = 2
+if temperature > 30:
+    print("It's hot outside")
+elif temperature > 20:
+    print("It's warm outside")
+else:
+    print("It's cold outside")
+
+marks = int(input("Enter marks:"))
+if marks > 85 and marks <= 100:
+    print("excellent")
+elif marks > 50 and marks <= 80:
+    print("Good")
+else:
+    print("Study hard")
+
+# ATM Withdrawal
+balance = int(input("Enter Balance: "))
+amount = int(input("Enter Amount: "))
+if amount > balance:
+    print("Insufficient balance")
+elif amount == balance:
+    print("Account balance will become zero")
+else:
+    print("Withdrawal successful")
+
+# Electricity Bill
+Units  = int(input("Enter Units : "))
+if Units > 300:
+    print("High usage")
+elif Units >= 100 and Units <= 300:
+    print("Medium usage")
+else:
+    print("Low usage")
+
+# Movie ticket
+age = int(input("Enter Age : "))
+StudentID = input("Do you have a studentID?")
+if age < 18:
+    print("Child ticket")
+elif age >= 18 and StudentID  == "Yes":
+    print("Student Discount")
+else:
+    print("Regular ticket")
+
+# Simple calculator
+num1 = float(input("Enter num1 :"))
+num2 = float(input("Enter num2 :"))
+operator = input("Enter operator (+,-,*,/):")
+if operator == "+":
+    print("Result :",num1 + num2)
+elif operator == "-":
+    print("Result :", num1 - num2)
+elif operator == "*":
+    print("Result :", num1 * num2)
+elif operator == "/":
+    print("Result :", num1 / num2)
+elif operator == "/" and num2 == 0:
+    print(" cannot divisible by zero")
+else:
+    print("Invalid operator")
+    
+
+
+
+
+
+
+
+
+
