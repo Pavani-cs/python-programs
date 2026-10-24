@@ -305,7 +305,143 @@ elif operator == "/" and num2 == 0:
     print(" cannot divisible by zero")
 else:
     print("Invalid operator")
+
+# Leap year
+year = int(input("Enter Leap Year : "))
+if year % 400 == 0:
+    print("Leap year")
+elif year % 100 == 0:
+    print("Not a Leap year")
+elif year % 4 == 0:
+    print("Leap year")
+else:
+    print("Not a leap year")
+
+# Triangle Type
+a = int(input("Enter side 1 :"))
+b = int(input("Enter side 2:"))
+c = int(input("Enter side 3 :"))
+if a + b <= c or a + c <= b or b + c <= a:
+    print("Invalid triangle")
+elif a == b == c:
+    print("Equilateral triangle")
+elif a == b or b == c or a == c:
+    print("Isosceles triangle")
+else:
+    print("Scalene triangle")
+
+#  Month Days
+month = int(input("Enter Month:"))
+if month == 4 or month == 6 or month == 9 or month == 11:
+    print(" 30 days")
+elif month == 2:
+    print("28 or 29 days")
+elif month >= 1 and month <= 12:
+    print("31 days")
+else:
+    print("Invalid month")
+
+# Character Check
+ch = input("Enter Character:")
+if ch >= 'A' and ch <= 'Z':
+    print("Upper case")
+elif ch >= 'a' and ch <= 'z':
+    print("Lower case")
+elif ch >= '0' and ch <= '9':
+    print("Digits")
+else:
+    print("Special character")
+
+# Vowel or Consonent
+ch = input("Enter a single alphabet:")
+if ch in "aeiouAEIOU":
+    print("Vowel")
+elif ch.isalpha():
+    print("Consonant")
+else:
+    print("Invalid inputs")
     
+#  Python Shorthand if
+# one line if statement
+name1 = "Dog"
+name2 = "Dog"
+if name1 == name2: print("Both equal")
+
+a = 2
+b = 330
+print("A") if a > b else print("B")
+
+a = 10
+b = 20
+bigger = a if a > b else b 
+print("Bigger is",bigger)
+
+a = 330
+b = 330
+print("A") if a > b else print("=") if a == b else print("B")
+
+username = ""
+display_name = username if username else "Guest"
+print("Welcome,", display_name)
+
+age = 12
+print("The ticket price is 100") if age < 13 else print("The ticket price is 200")
+
+age = 12
+price = 100 if age > 13 else 200
+print(price)
+
+# Delivary charges
+order_amount= 650
+charge = 0 if order_amount >= 500 else 50
+print(charge)
+
+# water tank
+water_level = 90
+print("Tanl almost Full") if water_level >= 80 else print("Tank has Space")
+
+#internet data
+data_used = 1.5
+data_limit = 1.0
+print("data limit exceeded") if data_used > data_limit  else print("Data available")
+
+#electricity Bill
+units = 180
+rate = 5 if units > 100 else 3
+print(rate)
+
+#Number check
+number = int(input("Enter Number:"))
+print("Divisible") if number % 5 == 0 else print("Not divisible") 
+
+number = int(input("Enter Number:"))
+result = "Divisible" if number % 5 == 0 else "Not dvisible"
+print(result)
+
+# mobile Battery
+Battery =  int(input("Enter battery percentage:"))
+print("Low battery") if Battery < 20 else print("Battery ok")
+
+#file name
+file_name = input("Enter file name:")
+print("python file") if file_name.endswith(".py") else print("Different file type")
+
+#password 
+password = input("Enter password:")
+print("valid format") if "@" in password else print("Add @ to password")
+
+# python Logical operators
+# combining multiple operators
+age = 25
+is_student = False
+has_discount_code = True
+if (age < 18 or age > 65) and not is_student or has_discount_code: print("Discount applies!")
+
+
+
+
+
+
 
 
 
