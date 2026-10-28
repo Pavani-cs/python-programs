@@ -437,6 +437,64 @@ is_student = False
 has_discount_code = True
 if (age < 18 or age > 65) and not is_student or has_discount_code: print("Discount applies!")
 
+ticket = True
+id_card = False
+print("Entry Allowed" if ticket and id_card else "Entry Denied")
+
+#Library Access
+banned = False
+print("Access Granted") if not banned else print("Access Denied")
+
+#Food Delivery
+restaurant_open = True
+online_payment = False
+cash_payment = True
+print("Place order") if restaurant_open and (online_payment or cash_payment) else print("Cannot order")
+
+#Gaming
+has_weapon = True
+out_of_health = False
+print("Continue Game" if has_weapon and not out_of_health else "Game over")
+
+#weather Alert
+rain_expected = False
+wind_speed = 65
+print("Weather Alert") if rain_expected or wind_speed >= 50 else print('Normal weather')
+
+#smart parking
+slot = False
+vehicle = True
+emergency = True
+print("Parking Allowed") if slot and not vehicle or emergency else print("Parking denied")
+
+#Airport security
+boarding = True
+passport = False
+special_clearance = False
+print("Proceed") if (boarding and passport) or special_clearance else print("Stop")
+
+# Python Nested if
+x = 400
+if x > 250:
+    print("Above 250,")
+    if x > 500:
+        print("and also above 500")
+    else:
+        print("but not above 500.")
+
+# licence
+age = 21
+has_license = True
+if age >= 18:
+    if has_license:
+        print("You can drive")
+    else:
+        print("you need a license")
+else:
+    print("you are too young to drive")
+
+
+
 
 
 
